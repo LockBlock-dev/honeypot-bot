@@ -1,0 +1,29 @@
+{
+    "name": "honeypot-bot",
+    "version": "1.0.0",
+    "description": "Simple Honeygain honeypot bot",
+    "main": "index.js",
+    "dependencies": {
+        "honeygain.js": "^1.3.0",
+        "node-cron": "^3.0.2",
+        "simple-discord-webhooks": "^1.1.1"
+    },
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LockBlock-dev/honeypot-bot.git"
+    },
+    "author": "LockBlock-dev",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LockBlock-dev/honeypot-bot/issues"
+    },
+    "homepage": "https://github.com/LockBlock-dev/honeypot-bot#readme",
+    "keywords": [
+        "honeygain",
+        "honeypot",
+        "bot"
+    ]
+}
